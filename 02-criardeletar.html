@@ -22,6 +22,10 @@
         IndexedDB é uma forma de armazenar dados no navegador do usuário.
         Com isso é possível criar aplicações web que podem funcionar tanto online quanto offline.
         </p>
+        <p>
+        No chrome digite ctrl+shift+i para abrir o painel de desenvolvedor.
+        Clique em >> Aplicativo >> IndexedDB        
+        </p>
         <label for="dbname">nome do banco de dados</label>
         <input type="text" id="dbname" value="metas">
         <label for="stores">nomes das tabelas</label>
@@ -29,6 +33,8 @@
         <p></p>
         <button id="createdb">criar</button>
         <button id="deletedb">deletar</button>
+        <p></p>
+        <p>Uso estimado de memória: <span id="memory">0</span>Kb</p>
     </main>
     <br>
     <p>mensagens exibidas durante o desenvolvimento</p>
