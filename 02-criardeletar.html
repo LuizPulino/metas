@@ -47,7 +47,7 @@
         })
         $("#deletedb").on("click", function() {
             dbName = $("#dbname").val();
-            log("Deletar " + dbName + " database...");
+            log("Deletar banco de dados " + dbName);
             indexedDB.deleteDatabase(dbName);
         })
     </script>
